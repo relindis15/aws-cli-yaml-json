@@ -1,0 +1,14 @@
+#aws configure
+Use the command to setup your aws cli configurations on your pc
+
+#creating an s3 bucket using cli
+aws s3 mb s3://bucket-name
+
+#copying a file to your bucket
+aws s3 cp file.txt s3://bucket-name
+
+#removing files already uploaded in your s3 bucket
+aws s3 rm s3://bucket-name/file.txt
+
+#check existing ec2 instances on your console
+aws ec2 describe-instances
