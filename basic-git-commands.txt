@@ -1,0 +1,14 @@
+#PUSHING YOUR PROJECT TO A REMOTE REPOSITORY USING THE FOLLOWING GIT COMMANDS
+git init
+git add .
+git status
+git commit -m "commit message"
+git branch -m main
+git remote add origin [repository url]
+git push -u origin main
+
+#CLONING YOUR PROJECT INTO YOUR LOCAL REPOSITORY OR WORKING DIRECTORY
+git clone [repository url]
+
+#PULLING A PROJECT FROM REMOTE REPOSITORY TO THE LOCAL REPOSITORY
+git pull
